@@ -1,0 +1,185 @@
+*{
+    background-color: #F3F5FC;
+    ;
+}
+
+.btn-decoder{
+    /* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+/* Light gray */
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+width: 280px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+.btn-encoder{
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+width: 280px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+.area-text-decoder{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 400px;
+height: 944px;
+left: 1000px;
+top: 40px;
+
+/* White */
+background: #FFFFFF;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+
+}
+
+.area-text-encoder{
+    /* Digite seu texto */
+
+position: absolute;
+width: 680px;
+height: 48px;
+left: 240px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+
+
+}
+
+.btn-copy-text{
+    /* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+position: absolute;
+width: 336px;
+height: 67px;
+left: 1032px;
+top: 885px;
+
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+
+/* Button */
+
+width: 288px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+color: ##FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
